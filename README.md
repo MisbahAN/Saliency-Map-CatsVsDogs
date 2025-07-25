@@ -18,18 +18,18 @@ Saliency maps are visualization techniques used in explainable AI that highlight
 
 ## 📁 Project Structure
 
-```
 Saliency-Map-CatsVsDogs/
 ├── binary_classification_model.py    # Main training script
 ├── saliency_map.py                   # Saliency map generation script
 ├── requirements.txt                  # Python dependencies
 ├── .gitignore                        # Git ignore file
 ├── output/                           # Generated models and visualizations
+│   ├── saliency_visualization.png
+│   ├── training_history.png
 ├── dogs-vs-cats/                     # Kaggle dataset directory
-│   ├── test1/                        # Test images
-│   └── sampleSubmission.csv          # Sample submission file
+│   └── test1/                        # Test images
 └── README.md                         # This file
-```
+
 
 ## 🚀 Features
 
@@ -150,23 +150,9 @@ The CNN consists of:
 
 - **Dataset**: [Kaggle Dogs vs Cats Competition](https://www.kaggle.com/c/dogs-vs-cats)
 
-## 📂 Git Configuration
-
-The project includes a comprehensive `.gitignore` file that excludes:
-
-- **Python cache files** (`__pycache__/`, `*.pyc`)
-- **Virtual environments** (`venv/`, `env/`)
-- **Dataset files** (`train.zip`, `dogs-vs-cats/`, `images/`)
-- **Model files** (`*.h5`, `*.keras`) - comment out if you want to track models
-- **Output files** (`output/`, `*.png`, `*.jpg`)
-- **IDE files** (`.vscode/`, `.idea/`)
-- **System files** (`.DS_Store`, `Thumbs.db`)
-
-To track model files in git, edit `.gitignore` and comment out the model file extensions.
-
 ## 👨‍💻 About the Developer
 
-Created by **Misbah Ahmed Nizami**
+Created by **Misbah Ahmed Nauman**
 
 - 🌐 Portfolio: [MisbahAN.com](https://MisbahAN.com)
 - 💼 LinkedIn: [in/misbahan](https://www.linkedin.com/in/misbahan)
