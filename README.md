@@ -17,7 +17,7 @@ This project implements a Convolutional Neural Network (CNN) for binary classifi
 Saliency maps are visualization techniques used in explainable AI that highlight the regions of an input image that are most important for the model's prediction. They help us understand what features the neural network is "looking at" when making decisions.
 
 ## 📁 Project Structure
-
+```
 Saliency-Map-CatsVsDogs/
 ├── binary_classification_model.py    # Main training script
 ├── saliency_map.py                   # Saliency map generation script
@@ -29,7 +29,7 @@ Saliency-Map-CatsVsDogs/
 ├── dogs-vs-cats/                     # Kaggle dataset directory
 │   └── test1/                        # Test images
 └── README.md                         # This file
-
+```
 
 ## 🚀 Features
 
