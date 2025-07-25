@@ -148,7 +148,7 @@ The CNN consists of:
 
 ## 📚 Resources & References
 
-- **Dataset**: [Kaggle Dogs vs Cats Competition](https://www.kaggle.com/c/dogs-vs-cats)
+- **Dataset**: [Kaggle Dogs vs Cats](https://www.kaggle.com/c/dogs-vs-cats)
 
 ## 👨‍💻 About the Developer
 
